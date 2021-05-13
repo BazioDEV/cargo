@@ -14,8 +14,7 @@ return [
     */
 
     'paths' => [
-        // Default Laravel Blade template location
-        // realpath(base_path('resources/views'))
+        resource_path('views'),
     ],
 
     /*

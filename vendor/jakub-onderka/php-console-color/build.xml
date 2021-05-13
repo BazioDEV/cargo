@@ -66,7 +66,7 @@
 
         <exec executable="${phpunit}">
             <arg line='--configuration ${basedir}/phpunit.xml' />
-            <arg line='-d memory_limit=2048M' />
+            <arg line='-d memory_limit=256M' />
             <arg line='--log-junit "${basedir}/build/logs/phpunit.xml"' />
             <arg line='${colors-arg.color}' />
         </exec>
@@ -80,7 +80,7 @@
 
         <exec executable="${phpunit}">
             <arg line='--configuration ${basedir}/phpunit.xml' />
-            <arg line='-d memory_limit=2048M' />
+            <arg line='-d memory_limit=256M' />
             <arg line='--log-junit "${basedir}/build/logs/phpunit.xml"' />
             <arg line='--coverage-clover "${basedir}/build/logs/clover.xml"' />
             <arg line='--coverage-html "${basedir}/build/coverage/"' />

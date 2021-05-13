@@ -6,13 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'UpdateHelper\\' => array($vendorDir . '/kylekatarnls/update-helper/src'),
-    'Twig_' => array($vendorDir . '/twig/twig/lib'),
-    'ParsedownExtra' => array($vendorDir . '/erusev/parsedown-extra'),
-    'Parsedown' => array($vendorDir . '/erusev/parsedown'),
-    'Less' => array($vendorDir . '/october/rain/src/Parse/Assetic/Less/lib'),
-    'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/lib'),
-    'Doctrine\\Common\\Collections\\' => array($vendorDir . '/doctrine/collections/lib'),
-    'Assetic' => array($vendorDir . '/kriswallsmith/assetic/src'),
+    'Unirest\\' => array($vendorDir . '/mashape/unirest-php/src'),
+    'Sabberworm\\CSS' => array($vendorDir . '/sabberworm/php-css-parser/lib'),
+    'Requests' => array($vendorDir . '/rmccue/requests/library'),
     'PayPal' => array($vendorDir . '/paypal/rest-api-sdk-php/lib'),
+    'Mockery' => array($vendorDir . '/mockery/mockery/library'),
+    'Milon\\Barcode' => array($vendorDir . '/milon/barcode/src'),
+    'Laracasts\\Flash' => array($vendorDir . '/laracasts/flash/src'),
+    'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
+    'CinetPay' => array($vendorDir . '/cinetpay/cinetpay-php/src'),
 );
